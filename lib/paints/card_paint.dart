@@ -48,7 +48,7 @@ class CardBorderPainter extends CustomPainter {
     canvas.drawPath(
       path,
       Paint()
-        ..color = Colors.white.withOpacity(opacity * 0.4)
+        ..color = Colors.white.withValues(alpha: 0.5)
         ..style = PaintingStyle.stroke
         ..strokeWidth = 6
         ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 4),
@@ -58,7 +58,7 @@ class CardBorderPainter extends CustomPainter {
     canvas.drawPath(
       path,
       Paint()
-        ..color = Colors.white.withOpacity(opacity)
+        ..color = Colors.white.withValues(alpha: opacity)
         ..style = PaintingStyle.stroke
         ..strokeWidth = 1.5,
     );

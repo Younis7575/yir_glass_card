@@ -1,3 +1,5 @@
+
+
 library yir_glass_card;
 
 import 'dart:math' as math;
@@ -78,6 +80,7 @@ class _YirGlassCardState extends State<YirGlassCard>
   late final Animation<double> _tapRippleAnim;
   late final Animation<double> _tapRippleOpacity;
 
+  // ignore: unused_field
   bool _isPressed = false;
 
   @override
@@ -302,7 +305,7 @@ class _ShimmerBorderPainter extends CustomPainter {
       canvas.drawPath(
         arcPath,
         Paint()
-          ..color = Colors.white.withOpacity(0.18)
+          ..color = Colors.white.withValues(alpha: 0.18)
           ..style = PaintingStyle.stroke
           ..strokeWidth = 8
           ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 6),
@@ -312,7 +315,7 @@ class _ShimmerBorderPainter extends CustomPainter {
       canvas.drawPath(
         arcPath,
         Paint()
-          ..color = Colors.white.withOpacity(0.85)
+          ..color = Colors.white.withValues(alpha: 0.85)
           ..style = PaintingStyle.stroke
           ..strokeWidth = 2,
       );
@@ -342,7 +345,7 @@ class _RipplePainter extends CustomPainter {
       center,
       maxRadius * progress,
       Paint()
-        ..color = Colors.white.withOpacity(0.15 * (1 - progress))
+        ..color = Colors.white.withValues(alpha: 0.15 * (1 - progress))
         ..style = PaintingStyle.fill,
     );
   }
