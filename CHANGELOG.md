@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Fix OSI license detection
+
 ## 0.0.3
 
 - Improved README documentation
