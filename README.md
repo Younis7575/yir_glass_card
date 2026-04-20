@@ -19,7 +19,11 @@ A modern **glassmorphism card widget** for Flutter with blur, gradient, shadow, 
 
  
 
----c:\Users\Al Shahbaz Computer\Downloads\YIR_CARD_GIF.gif
+## 📸 Preview
+
+![Demo](YIR_CARD_GIF.gif)
+
+![Preview](YIR_CARD.jpeg)
 
 ## 📦 Installation
 
