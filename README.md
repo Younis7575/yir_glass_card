@@ -13,10 +13,7 @@ A modern **glassmorphism card widget** for Flutter with blur, gradient, shadow, 
 - 📐 Custom shape support  
 - 👶 Supports any child widget  
 
----
-
-## 📸 Preview
-
+ 
  
 
 ## 📸 Preview
