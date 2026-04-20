@@ -1,21 +1,29 @@
 # 🧊 Yir Glass Card
 
-A beautiful **glassmorphism card widget** for Flutter with custom shape, blur, gradient, shadow and child support.
+A modern **glassmorphism card widget** for Flutter with blur, gradient, shadow, and fully customizable UI.
 
 ---
 
 ## ✨ Features
 
-- 🧊 Glass blur effect
-- 🎨 Custom color support
-- 🌈 Gradient background
-- 🌑 Shadow control
-- 📐 Custom shape (your design)
-- 👶 Child widget support
+- 🧊 Smooth glass blur effect  
+- 🎨 Custom color & gradient support  
+- 🌈 Beautiful UI design  
+- 🌑 Shadow customization  
+- 📐 Custom shape support  
+- 👶 Supports any child widget  
 
 ---
 
+## 📸 Preview
+
+ 
+
+---c:\Users\Al Shahbaz Computer\Downloads\YIR_CARD_GIF.gif
+
 ## 📦 Installation
+
+Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:

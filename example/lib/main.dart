@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          title: const Text("YIR Glass Card"),
+          title: const Text("YIR Glass Card",style: TextStyle(color: Colors.white),),
           backgroundColor: Colors.red,
           elevation: 0,
         ),
