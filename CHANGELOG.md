@@ -1,4 +1,8 @@
-## 0.0.4
+## 0.0.5
+
+- prepare for pub.dev release"#
+
+# 0.0.4
 
 - Fix OSI license detection
 
