@@ -1,0 +1,17 @@
+name: yir_glass_card_example
+description: Example app for yir_glass_card
+publish_to: "none"
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 👇 IMPORTANT: local package link
+  yir_glass_card:
+    path: ../
+
+flutter:
+  uses-material-design: true
